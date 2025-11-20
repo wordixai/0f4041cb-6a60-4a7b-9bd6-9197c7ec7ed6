@@ -1,0 +1,35 @@
+{
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "cachedStatsigGates": {
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_tool_pear": false,
+    "tengu_web_tasks": true
+  },
+  "firstStartTime": "2025-11-20T08:52:18.506Z",
+  "userID": "6ca98c0311c338e68235bd6660edced70a36b488205e6caa821f82e2945f9494",
+  "sonnet45MigrationComplete": true,
+  "projects": {
+    "/app": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "I don't have any file modification data to analyze. The lists provided are empty - there are no files modified by the user or by other users.",
+        "",
+        "To complete this task, I would need:",
+        "1. A list of files with their modification counts from the user",
+        "2. A list of files with their modification counts from other users",
+        "",
+        "Please provide the git history data and I'll return the five most relevant filenames."
+      ],
+      "exampleFilesGeneratedAt": 1763628741249
+    }
+  }
+}
