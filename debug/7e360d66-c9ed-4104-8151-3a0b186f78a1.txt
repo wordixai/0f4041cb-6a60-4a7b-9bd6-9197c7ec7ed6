@@ -1,0 +1,43 @@
+2025-11-20T08:57:14.824Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-11-20T08:57:14.826Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-11-20T08:57:14.826Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-11-20T08:57:14.826Z [DEBUG] [LSP SERVER MANAGER] initialize() called
+2025-11-20T08:57:14.826Z [DEBUG] [LSP SERVER MANAGER] Calling getAllLspServers()
+2025-11-20T08:57:14.870Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-11-20T08:57:14.872Z [DEBUG] Total LSP servers loaded: 0
+2025-11-20T08:57:14.884Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2025-11-20T08:57:14.884Z [DEBUG] LSP manager initialized with 0 servers
+2025-11-20T08:57:14.885Z [DEBUG] LSP server manager initialized successfully
+2025-11-20T08:57:14.885Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-11-20T08:57:14.919Z [DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/app/skills, project=/app/.claude/skills
+2025-11-20T08:57:14.920Z [DEBUG] >>>>> getPluginSkills CALLED <<<<<
+2025-11-20T08:57:15.026Z [DEBUG] Creating shell snapshot for bash (/bin/bash)
+2025-11-20T08:57:15.027Z [DEBUG] Looking for shell config file: /root/.bashrc
+2025-11-20T08:57:15.027Z [DEBUG] Snapshots directory: /app/shell-snapshots
+2025-11-20T08:57:15.028Z [DEBUG] Creating snapshot at: /app/shell-snapshots/snapshot-bash-1763629035027-qxc6tw.sh
+2025-11-20T08:57:15.028Z [DEBUG] Shell binary exists: true
+2025-11-20T08:57:15.028Z [DEBUG] Execution timeout: 10000ms
+2025-11-20T08:57:15.039Z [DEBUG] Writing to temp file: /app/todos/7e360d66-c9ed-4104-8151-3a0b186f78a1-agent-7e360d66-c9ed-4104-8151-3a0b186f78a1.json.tmp.375.1763629035039
+2025-11-20T08:57:15.039Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-20T08:57:15.039Z [DEBUG] Renaming /app/todos/7e360d66-c9ed-4104-8151-3a0b186f78a1-agent-7e360d66-c9ed-4104-8151-3a0b186f78a1.json.tmp.375.1763629035039 to /app/todos/7e360d66-c9ed-4104-8151-3a0b186f78a1-agent-7e360d66-c9ed-4104-8151-3a0b186f78a1.json
+2025-11-20T08:57:15.040Z [DEBUG] File /app/todos/7e360d66-c9ed-4104-8151-3a0b186f78a1-agent-7e360d66-c9ed-4104-8151-3a0b186f78a1.json written atomically
+2025-11-20T08:57:15.041Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2025-11-20T08:57:15.042Z [DEBUG] Total plugin skills loaded: 0
+2025-11-20T08:57:15.042Z [DEBUG] Total plugin commands loaded: 0
+2025-11-20T08:57:15.042Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-11-20T08:57:15.099Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+2025-11-20T08:57:15.100Z [DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+2025-11-20T08:57:15.101Z [DEBUG] Total plugin agents loaded: 0
+2025-11-20T08:57:15.275Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/vendor/ripgrep/x64-linux/rg)
+2025-11-20T08:57:15.280Z [DEBUG] Shell snapshot created successfully (1746 bytes)
+2025-11-20T08:57:15.285Z [DEBUG] Getting matching hook commands for SubagentStart with query: Explore
+2025-11-20T08:57:15.285Z [DEBUG] Found 0 hook matchers in settings
+2025-11-20T08:57:15.285Z [DEBUG] Matched 0 unique hooks for query "Explore" (0 before deduplication)
+2025-11-20T08:57:15.285Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2025-11-20T08:57:15.285Z [DEBUG] Found 0 hook matchers in settings
+2025-11-20T08:57:15.285Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2025-11-20T08:57:15.293Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-20T08:57:15.293Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-20T08:57:15.326Z [DEBUG] Getting matching hook commands for SessionStart with query: resume
+2025-11-20T08:57:15.326Z [DEBUG] Found 0 hook matchers in settings
+2025-11-20T08:57:15.326Z [DEBUG] Matched 0 unique hooks for query "resume" (0 before deduplication)

@@ -4,7 +4,8 @@
   "cachedStatsigGates": {
     "tengu_disable_bypass_permissions_mode": false,
     "tengu_tool_pear": false,
-    "tengu_web_tasks": true
+    "tengu_web_tasks": true,
+    "tengu_glob_with_rg": false
   },
   "firstStartTime": "2025-11-20T08:52:18.506Z",
   "userID": "6ca98c0311c338e68235bd6660edced70a36b488205e6caa821f82e2945f9494",
